@@ -20,7 +20,7 @@ class Navbar extends Component {
                     {/*uses props to render icon and title*/}
                     <i className={this.props.icon}/>{this.props.title}</h1>
             </div>
-        );
+        );/*end of return*/
     }/*end of render*/
 }/*end of class*/
 
