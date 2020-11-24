@@ -6,10 +6,11 @@ class App extends Component {
     render() {
         return (
             <div>
+                {/*render Navbar class props*/}
                 <Navbar/>
             </div>
         );
-    }
-}
+    }/*end of render*/
+}/*end of class*/
 
 export default App;
