@@ -11,7 +11,7 @@ class UserItem extends Component {
 
     render() {
         /*destructure this.state to save entering each time*/
-        const {avatar_url, login, html_url} = this.state;
+        const {avatar_url, login, html_url} = this.props.user;
         return (
             <div className='card text-center'>
                 {/*updates avatar_url state with github user avatar*/}
